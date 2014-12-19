@@ -18,6 +18,31 @@ KAnnotator
 KAnnotator
 ==========
 * Does this method ever return `null`?
+* 
+
+
+
+* Does this method ever return `null`?
+* Does this method mutate this collection passed to it?
+
+### Output format
+
+The contracts are represented as annotations on Java method, hence the name of the project.
+* Does this method ever return `null`?
+* Does this method mutate this collection passed to it?
+
+### Output format
+
+The contracts are represented as annotations on Java method, hence the name of the project.
+Since libraries under analysis are not under user's control, the annotations can not be added to their code directly, so KAnnotator stores them in one of the two formats:
+
+KAnnotator
+KAnnotator
+KAnnotator
+==========
+* Does this method ever return `null`?
+* Does this method mutate this collection passed to it?
+
 * Does this method mutate this collection passed to it?
 
 ### Output format
