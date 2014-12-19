@@ -1,18 +1,4 @@
-\\
-KAnnotator
-==========
 
-Infer @Nullable/@NotNull and other annotations from byte code
-\\
-KAnnotator
-==========
-
-Infer @Nullable/@NotNull and other annotations from byte code
-
-### What is KAnnotator
-
-If you have a Java library binaries (e.g. jar-files), KAnnotator can analyze them and tell you some information about contracts of the methods in this library. For example:
-* Does this method admit `null` as a value for this parameter?
 * Does this method ever return `null`?
 * Does this method mutate this collection passed to it?
 
